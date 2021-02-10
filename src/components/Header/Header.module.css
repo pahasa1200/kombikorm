@@ -1,0 +1,21 @@
+.headerContainer{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homePageButton {
+    align-items: center;
+    justify-content: center;
+}
+.brand{
+    margin-right: 20px;
+}
+.headerLink{
+    text-decoration: none;
+    color: white;
+}
+.headerMobileLink{
+    text-decoration: none;
+    color: black;
+}
