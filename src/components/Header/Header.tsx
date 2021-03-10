@@ -66,7 +66,7 @@ const Header: React.FC<PropsType> = (props) => {
                 </ListItem>
                 <ListItem button>
                     <ListItemIcon><LiveHelpIcon/></ListItemIcon>
-                    <ListItemText><Link className={classes.headerMobileLink} to='/fqa'>Часто задаваемые вопросы</Link></ListItemText>
+                    <ListItemText><Link className={classes.headerMobileLink} to='/faq'>Часто задаваемые вопросы</Link></ListItemText>
                 </ListItem>
             </List>
             <Divider/>
@@ -101,7 +101,7 @@ const Header: React.FC<PropsType> = (props) => {
                                 <Link className={classes.headerLink} to='/home'><Button color="inherit">Главная</Button></Link>
                                 <Link className={classes.headerLink} to='/contacts'><Button color="inherit">Контакты</Button></Link>
                                 <Link className={classes.headerLink} to='/catalog'><Button color="inherit">Товары</Button></Link>
-                                <Link className={classes.headerLink} to='/fqa'><Button color="inherit">Часто задаваемые вопросы</Button></Link>
+                                <Link className={classes.headerLink} to='/faq'><Button color="inherit">Часто задаваемые вопросы</Button></Link>
                             </MediaQuery>
                         </Toolbar>
                     </AppBar>

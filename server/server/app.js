@@ -5,9 +5,9 @@ const mongoose = require('mongoose')
 const cors = require('cors')
 
 const app = express();
-const PORT = 3005;
+const PORT = 3010;
 
-mongoose.connect(`mongodb+srv://pahasa:Pasha1200@cluster0.ll3xt.mongodb.net/TrainDB?retryWrites=true&w=majority`, {useUnifiedTopology: true, useNewUrlParser: true})
+mongoose.connect(`mongodb+srv://pahasa:Pasha1200@cluster0.ll3xt.mongodb.net/OstrovTorg?retryWrites=true&w=majority`, {useUnifiedTopology: true, useNewUrlParser: true})
 
 app.use(cors())
 
